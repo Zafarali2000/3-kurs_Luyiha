@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }  
+ 
+ body{
+     /* background-image:url("mashina.jpg"); */
+     background-size: cover;		
+     font-family: sans-serif; 
+     background-repeat: no-repeat;
+ }
+ 
+ .asosiy-oyna{
+     color: weight;
+     background-color: #646867;
+     text-align: center;
+     font-size: 17px;
+		
+ }
+ 
+ .asosiy-oyna ul{
+     display: inline-flex;
+     list-style: none;
+     color: white;
+ }
+ 
+ .asosiy-oyna ul li{
+     width: 125px;
+     margin:10px;
+     padding: 10px;
+     
+ }
+ 
+ .asosiy-oyna ul li a{
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .tanlash, .asosiy-oyna ul li:hover{
+     background: #56A4D5;
+     border-radius: 3px;
+ }
+ 
+ .til{
+	background-color: #646867;
+	color: white;
+	font-size: 17px;
+	margin-right: 10px;
+	border: 0px solid yellow;
+}
+
+.til option{
+	background-color: white;
+	color: black;
+	font-size: 17px;
+}
+
+
+
+
+ 
+
+ .border{
+	border: 0px solid red;
+	background-color: lightgray;
+}
+
+.input{
+	width: 500px;
+	height: 50px;
+	border: 0px solid  black;
+	background-color: lightgray;
+	margin-left: 450px;
+	display: flex;
+}
+
+
+.input input{
+	width: 300px;
+	height: 35px;
+	border: 0px solid red;
+	font-size: 25px;
+	margin-left: 40px;
+	margin-top: 7px;
+	background-color: lightgray;
+	color: white;
+}
+ .input1 img{
+	 width: 35px;
+	 height: auto;
+	 font-size: 30px;
+	 text-decoration: none;
+	 color: black;
+	 padding-top: 5px;
+	 border: 0px solid greenyellow;
+	 transform: scale(1);
+	 transition: transform 0.5s;
+	 margin-left: 5px;
+ }
+ .input1 img:hover{
+	 
+	 transform: scale(1.06);
+ }
+
+
+
+ .mahsulot0{
+	width: 100%;
+	height: auto;
+	border: 0px solid black;
+	/* margin-top: 0px; */
+	background-color: lightgray;
+}
+
+.mahsulot{
+	display: flex;
+	margin-top: 0px;
+	padding-top: 5px;
+}
+.mahsulot1{
+	display: flex;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+
+	.box{
+		width: 234px;
+		height: 300px;
+		border: 1px solid black;
+		background-color: lightgray;
+		border-radius: 5px;
+		margin-left: 80px;
+		
+	}
+	.img{
+		width: 232px;
+		height: 200px;
+		border: 1px solid black;
+	}
+	.img img{
+		width: 230px;
+		height: 198px;
+		border: 0px solid yellow;
+		transform: scale(1);
+		transition: transform 0.5s;
+	}
+	.img img:hover{
+		transform: scale(1.06);
+		
+	}
+	.avto{
+		width: 232px;
+		height: 40px;
+		border: 0px solid yellow;
+		color: black;
+		padding-top: 10px;
+		font-weight: bold;
+		font-size: 18px;
+        text-align: center;
+	}
+	.box1{
+		display: flex;
+		border: 0px solid black;
+	}
+
+	.narx{
+		width: 115px;
+		height: 30px;
+		border: 1px solid black;
+		color: black;
+		padding-top: 5px;
+		font-weight: bold;
+		color: red;
+        text-align: center;
+		
+	}
+
+	.narx1{
+		width: 122px;
+		height: 30px;
+		border: 1px solid black;
+		color: black;
+		padding-top: 5px;
+		font-weight: bold;
+		color: green;
+        text-align: center;
+	}
+
+
+	.box2{
+		display: flex;
+		border: 0px solid black;
+	}
+
+	.box3{
+		width: 122px;
+		height: 30px;
+		border: 0px solid red;
+		color: black;
+		padding-top: 6px;
+        text-align: center;
+		
+	}
+	.box3 a{
+		text-decoration: none;
+		color: black;
+	}
+	.box3 a:hover{
+		color: tomato;
+	}
+	.box3 a:active{
+		color: red;
+	}
+
+	.box4{
+		width: 122px;
+		height: 30px;
+		border: 0px solid green;
+		color: black;
+		padding-top: 6px;
+        text-align: center;
+	}
+
+
+	.box4 a{
+		text-decoration: none;
+		color: black;
+	}
+	.box4 a:hover{
+		color: tomato;
+	}
+	.box4 a:active{
+		color: green;
+	}
+
+
+
+
+
+
+
+
+  
+	
+
+		 /* Oxirgi qator */
+		 .umumiy{
+			width: 100%;
+			height: 210px;
+			border: 0px solid red;
+			background-color: #646867;
+			display: flex;
+		
+		}
+		
+		
+		.hamkorlar{
+			width: 150px;
+			height: auto;
+			border: 0px solid black;
+			color: tomato;
+			font-size: 23px;
+			margin-top: 5px;
+			font-weight: bold;
+			font-family: Arial;
+		}
+		.hamkorlar1{
+			width: 200px;
+			height: 200px;
+			border: 0px solid black;
+			font-size: 20px;
+			margin-left: 40px;
+			font-family: 'batang';
+		}
+		.hamkorlar2{
+			margin-top: 10px;
+			margin-right: 100px;
+			color: #FFFFFF;
+			
+		}
+		.hamkorlar3{
+			margin-top: 10px;
+			margin-right: 20px;
+			color: #FFFFFF;
+		}
+		
+		.hamkorlar4{
+			margin-top: 10px;
+			margin-right: 100px;
+			color: #FFFFFF;
+		}
+		.hamkorlar5{
+			margin-top: 10px;
+			margin-right: 100px;
+			color: #FFFFFF;
+		}
+		.hamkorlar6{
+			margin-top: 10px;
+			margin-right: 47px;
+			color: #FFFFFF;
+		}
+		
+		/* class===phone*/
+		.meta{
+			color: tomato;
+			display: block;
+			width: 220px;
+			border: 0px solid red;
+			margin-left: 70px;
+		}
+		.meta1{
+			border: 2px solid black;
+			margin-top: 35px;
+			border-radius: 5px;
+			height: 51px;
+			width: 165px;
+			margin-left: 20px;
+		}
+		.meta1 img{
+			width: 160px;
+			/* margin:5px 5px; */
+			transform: scale(1);
+			transition: transform 0.5s;
+		}
+		.meta1 img:hover{
+			/* background-color: #1F2322; */
+			transform: scale(1.03);
+		}
+		
+		
+		
+		
+		/* class===phone */
+		.phone{
+		 width: 200px;
+		 height: 200px;
+		 border: 0px solid yellow;
+		 margin-left: 100px;
+		 margin-top: 5px;
+		 font-size: 18px;
+		}
+		
+		.phone1{
+			width: 150px;
+			height: 40px;
+			border: 0px solid red ;
+			color: tomato;
+			font-family: 'arial';
+			font-weight: bold;
+			font-size: 20px;
+			margin-top: 2px;
+		
+		}
+		
+		.phone2{
+		
+		margin-bottom: 20px;
+		color: #FFFFFF;
+		}
+		
+		.phone3{
+			margin-bottom: 20px;
+			color: #FFFFFF;
+		}
+		
+		.phone4{
+			margin-bottom: 20px;
+			color: #FFFFFF;
+		}
+		
+		.manzil{
+			width: 220px;
+			height: 200px;
+			border: 0px solid red;
+			margin-left: 111px;
+		}
+		.manzil1{
+			width: 200px;
+			height: 40px;
+			border: 0px solid red ;
+			color: tomato;
+			font-family: 'arial';
+			font-weight: bold;
+			font-size: 20px;
+			margin-top: 9px;
+		}
+		.manzil2{
+			color: #FFFFFF;
+			font-size: 18px;
+			margin-bottom: 19px;
+		}
+		
+		
+		.xabar{
+			width: 120px;
+		 margin-left: 70px;
+		 margin-top: 7px;
+		 border: 0px solid red ;
+		
+		}
+		
+		.xabar1 a{
+		 font-size: 35px;
+		 text-decoration: none;
+		 margin-bottom: 17px;
+		 color: black;
+		}
+		.xabar1 a:hover{
+			color: tomato;
+		}
+		.xabar2 a{
+			font-size: 35px;
+			text-decoration: none;
+			margin-bottom: 17px;
+			color: black;
+		   }
+		   .xabar2 a:hover{
+			color: tomato;
+		}
+		   .xabar3 a{
+			font-size: 35px;
+			text-decoration: none;
+			margin-bottom: 17px;
+			color: black;
+		   }
+		   .xabar3 a:hover{
+			color: tomato;
+		}
+		   .xabar4 a{
+			font-size: 35px;
+			text-decoration: none;
+			margin-bottom: 17;
+			color: black;
+		   }
+		   .xabar4 a:hover{
+			color: tomato;
+		}
